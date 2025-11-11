@@ -136,7 +136,6 @@ class _CalculatorState extends State<Calculator> {
               ],
             ),
 
-            // 0 Row (4 buttons)
             Row(
               children: [
                 ButtonWidget(onClick: () => buttonPress('%'), text: '%'),
@@ -146,7 +145,7 @@ class _CalculatorState extends State<Calculator> {
               ],
             ),
 
-            // Last Row (also 4 buttons ✅)
+
             Row(
               children: [
                 ButtonWidget(onClick: () => buttonPress('AC'), text: 'AC', color: Colors.red),
